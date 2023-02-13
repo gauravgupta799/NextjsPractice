@@ -78,6 +78,21 @@
   padding: 0;
   margin: 0;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover{
+  color:rgb(4, 84, 164);
+}
+ul{
+  list-style: none;
+  font-size:2rem;
+}
+li:hover{
+  cursor: pointer;
+  color:blueviolet;
+}
 /* 
 html,
 body {

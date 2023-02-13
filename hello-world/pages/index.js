@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 // import { Inter } from '@next/font/google'
 // import styles from '@/styles/Home.module.css'
 
@@ -15,6 +16,16 @@ export default function Home() {
       </Head>
       <main>
         <h2>This is Homepage</h2>
+        <h2>
+          <Link href="/blogs">
+            Blogs
+          </Link>
+        </h2>
+        <h2>
+          <Link href="/products">
+            Products
+          </Link>
+        </h2>
       </main>
     </>
   )
