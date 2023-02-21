@@ -18,6 +18,9 @@ export default function Home() {
           <Link href="/posts" passHref>
               <h3>Posts</h3>
           </Link>
+          <Link href="/products" passHref>
+              <h3>Products</h3>
+          </Link>
       </div>
     </>
   )
