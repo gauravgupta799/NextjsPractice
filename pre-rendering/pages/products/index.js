@@ -7,7 +7,7 @@ function ProductList({products}){
         {products.map(product=>{
             return(
                 <div key ={product.id}>
-                <Link to = {`products/${product.id}`} passHref>
+                <Link href = {`products/${product.id}`} passHref>
                     <h2>
                     {product.id}
                     {product.title}

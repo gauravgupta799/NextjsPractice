@@ -22,13 +22,11 @@ function Product({product}){
 export default Product;
 
 
-export function getStaticPaths(){
+export async function getStaticPaths(){
     return {
         paths:[
             {
-                params:{ productId:'1'},
-                params:{ productId:'2'},
-                params:{ productId:'3'},             
+                params:{ productId:'1'},             
             }
         ],
         fallback:true,
@@ -37,7 +35,7 @@ export function getStaticPaths(){
 
 export async function getStaticProps(context){
     const {params} = context;
-    const res = await fetch (`http://localhost:4000/products/${params.id}`);
+    const res = await fetch(`http://localhost:4000/products/${params.productId}`);
     const data = await res.json();
 
     return {
