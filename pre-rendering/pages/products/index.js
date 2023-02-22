@@ -9,8 +9,8 @@ function ProductList({products}){
                 <div key ={product.id}>
                 <Link href = {`products/${product.id}`} passHref>
                     <h2>
-                    {product.id}
-                    {product.title}
+                    {product.id} &nbsp;
+                    {product.title} &nbsp;&nbsp;
                     {product.price}
                     </h2><hr/>
                 </Link>
@@ -30,6 +30,7 @@ export async function getStaticProps(){
     return {
         props:{
             products:data,
-        }
+        },
+        revalidate:10,
     }
 }

@@ -11,9 +11,11 @@ function Product({product}){
     return (
         <div>
             <h2>
-                {product.id} {product.title} {product.price}
+                {product.id}&nbsp;
+                 {product.title} &nbsp;&nbsp;
+                 {product.price}
             </h2>
-            <p>{product.description}</p>
+            <h4>{product.description}</h4>
             <hr/>
         </div>
     )
