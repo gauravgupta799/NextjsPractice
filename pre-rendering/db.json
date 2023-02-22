@@ -1,4 +1,48 @@
 {
+    "news": [
+        {
+            "id":1,
+            "title": "Football News",
+            "description": "This is a new article.",
+            "category": "sports"
+        },
+        {
+            "id":2,
+            "title": "Politics Article",
+            "description": "This is a new article.",
+            "category": "politics"
+        },
+        {
+            "id":3,
+            "title": "Entertainment News",
+            "description": "This is a new article.",
+            "category": "entertainment"
+        },
+        {
+            "id":4,
+            "title": " Science News",
+            "description": "This is a new article.",
+            "category": "science"
+        },
+        {
+            "id":5,
+            "title": "Education News",
+            "description": "This is a new article.",
+            "category": "education"
+        },
+        {
+            "id":6,
+            "title": "Cricket News",
+            "description": "This is a new article.",
+            "category": "sports"
+        },
+        {
+            "id":7,
+            "title": "Universe News",
+            "description": "This is a new article.",
+            "category": "science"
+        }
+    ],
     "products":[
         {
             "id":1,
