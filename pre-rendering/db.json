@@ -68,5 +68,77 @@
             "price":1500,
             "description":"Product 3 description"
         }
+    ],
+    "events":[
+        {
+            "id": 1,
+            "title":"Event One",
+            "description":"Event One description",
+            "category":"sports",
+            "date":"April 25, 2023"
+        },
+        {
+            "id": 2,
+            "title":"Event Two",
+            "description":"Event Two description",
+            "category":"sports",
+            "date":"May 23, 2023"
+        },
+        {
+            "id": 3,
+            "title":"Event Three",
+            "description":"Event Three description",
+            "category":"food",
+            "date":"March 12, 2023"
+        },
+        {
+            "id": 4,
+            "title":"Event Four",
+            "description":"Event Four description",
+            "category":"food",
+            "date":"April 20, 2023"
+        },
+        {
+            "id": 5,
+            "title":"Event Five",
+            "description":"Event Five description",
+            "category":"art",
+            "date":"July 12, 2023"
+        },
+        {
+            "id": 6,
+            "title":"Event Six",
+            "description":"Event Six description",
+            "category":"technology",
+            "date":"August 18, 2023"
+        },
+        {
+            "id": 7,
+            "title":"Event Seven",
+            "description":"Event Seven description",
+            "category":"music",
+            "date":"october 21, 2023"
+        },
+        {
+            "id": 8,
+            "title":"Event Eight",
+            "description":"Event Eight description",
+            "category":"art",
+            "date":"September 25, 2023"
+        },
+        {
+            "id": 9,
+            "title":"Event Nine",
+            "description":"Event Nine description",
+            "category":"music",
+            "date":"November 19, 2023"
+        },
+        {
+            "id": 10,
+            "title":"Event Ten",
+            "description":"Event Ten description",
+            "category":"books",
+            "date":"December 29, 2023"
+        }
     ]
 }
