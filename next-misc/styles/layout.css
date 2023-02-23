@@ -1,0 +1,15 @@
+.layout-header, .layout-footer{
+    background-color:#000;
+    color:white;
+    font-size:28px;
+    text-align: center;
+    padding:20px; 
+    border:0.5px solid white;
+}
+.about-content, .signup-content{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height:100vh;
+    font-size:28px;
+}
