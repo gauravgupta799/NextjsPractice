@@ -1,0 +1,9 @@
+.container{
+    height:50px;
+    width:200px;
+    text-align: center;
+    border:1px solid cyan;
+}
+.title{
+    color:aquamarine;
+}
