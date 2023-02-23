@@ -34,7 +34,6 @@ const EventsList = ({eventList}) => {
                     <div key ={i}>
                         <button 
                         onClick={()=>setFilterValue(option)}
-                        
                         >
                         {option}
                         </button>

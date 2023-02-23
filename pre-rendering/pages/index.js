@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
+      <div style={{margin:"10px"}}>
         <h1>Next.Js pre-rendering</h1>
           <Link href="/users" passHref>
              <h3>Users</h3>
@@ -21,6 +21,10 @@ export default function Home() {
           <Link href="/products" passHref>
               <h3>Products</h3>
           </Link>
+          <Link href="/events" passHref>
+              <h3>Events</h3>
+          </Link>
+
       </div>
     </>
   )
