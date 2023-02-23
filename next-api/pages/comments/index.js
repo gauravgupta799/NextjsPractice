@@ -20,7 +20,14 @@ const Comments =()=>{
         });
         const data = await response.json();
         setCommentVal("");
-        console.log(data);
+        handleComments()
+        // console.log(data);
+    }
+
+    const handleDeleteComment = async(commentId)=>{
+        const response = await fetch(`/api/comments/${commentId}`, { method: 'DELETE'})
+        const data = await response.json();
+        handleComments()
     }
 
     return(
@@ -35,11 +42,18 @@ const Comments =()=>{
         {
             comments.map((comment)=>{
                 return(
-                    <div key ={comment.id}>
+                    <div key ={comment.id} style={{
+                        display:"flex",
+                        alignItems: "center",
+                        justifyContent:'space-between',
+                        margin:"10px 5px",
+                        width:"30%",
+                        }}>
                       <h2>
                       {comment.id} | {comment.text}
-                      </h2>  
-                    </div>
+                      </h2> &nbsp;&nbsp;  
+                      <button onClick={()=>handleDeleteComment(comment.id)}>Delete comment</button>
+                    </div> 
                 )
             })
         }
