@@ -1,12 +1,12 @@
 import React from 'react';
-import Image from 'next/image';
-import img from "../public/1.jpg";
+// import Image from 'next/image';
+// import img from "../public/1.jpg";
 
 const Pets = () => {
   return (
     <div>
         <h2>Pets Images</h2>
-        <Image 
+        {/* <Image 
           src={img} 
           placeholder='blur' 
           alt="pet"
@@ -29,7 +29,7 @@ const Pets = () => {
                     </div>
                 )
             })
-        }
+        } */}
     </div>
   )
 }
