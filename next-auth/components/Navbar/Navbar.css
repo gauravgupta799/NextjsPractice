@@ -1,4 +1,4 @@
-nav{
+.header{
     height:50px;
     width: 100%;
     border-bottom: 1px solid white;
@@ -7,21 +7,23 @@ nav{
     justify-content:space-between;
     padding:0px 1rem;
 }
-.logo{
-
-}
-
-ul{
+.main-nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
     height:50px;
-    /* border:1px solid red; */
 }
 li{
     list-style: none;
     font-size:1.2rem;
     margin:0px 10px;
     letter-spacing: 0.12rem;
-
+}
+.loading{
+    opacity:0;
+    transition:all 0.2s ease-in;
+}
+.loaded{
+    opacity: 1;
+    transition:all 0.2s ease-in;
 }
