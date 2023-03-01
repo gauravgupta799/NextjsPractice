@@ -1,9 +1,7 @@
-import React, {useState, useEffect} from 'react';
 import {getSession,useSession} from "next-auth/react";
 
 const Blog = ({data}) => {
  const {session} = useSession();
-//  console.log(session)
   return (
     <div>
       <h1>Blogs Page: {data}</h1>
